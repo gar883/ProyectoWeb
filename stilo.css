@@ -1,0 +1,54 @@
+
+
+
+body {
+	background-image: url(contacto.jpg); /*poner imagen de fondo*/
+	background-size: 100vw 100vh;
+	background-attachment: fixed;/*imagen fija cuando moves la pagina*/
+	margin: 0;
+}
+
+form{
+	width: 300px;
+	margin: auto;
+	background: rgba(0,0,0,0.5);
+	padding: 10px 20px ;/*relleno del formulario*/
+	box-sizing: border-box;/*el relleno del padding se va hacia adentro del formulario*/
+	margin-top: 20px;
+	border-radius: 10px;
+    font-family: "Noto Sans HK",sans-serif;
+}
+h2{
+	color: #FFFFFF;
+	text-align : center;
+	margin: 0;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+input, textarea{
+
+	width: 100%;
+	margin-bottom: 20px;
+	padding:7px;
+	box-sizing: border-box;
+	border: none;
+    border-radius: 3px;
+    font-size: 16px
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+    font-family: sans-serif;
+
+}
+#boton{
+	background: #455a64;
+	color: #fff;
+	padding: 12px;
+    
+}
+#boton:hover{
+	cursor: pointer;
+}
+
